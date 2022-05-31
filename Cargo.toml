@@ -1,0 +1,10 @@
+[package]
+name = "ice-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+webrtc-ice = "0.6.6"
+tokio = { version = "1.18.2", features = ["full"] }
+eyre = "0.6.8"
+simple_logger = "2.1.0"
